@@ -119,7 +119,7 @@ O método pagamentoSalario irá receber por parâmetro:
 - **contaDestino:** Class (Podendo ser uma classe Empresa ou Pessoa)
 - **idPagamento**: number
 - **dataDoPagamento**: string
-- **valorDoSalario**: number
+- **dataDoPagamento**: number
 
 - Deve verificar se a **contaOrigem** é uma instância da classe **Pessoa** caso seja o **valorDoSalario** não pode ser maior 1000. Caso não passe nesta validação deve retornar a mensagem:
 
